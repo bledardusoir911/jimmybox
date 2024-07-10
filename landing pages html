@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente de Poings Américains</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: #e6e6fa;
+            border: 2px solid #ff69b4;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vente de Poings Américains</h1>
+        <p>Des produits amusants et colorés, juste pour vous !</p>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="poing1.jpg" alt="Poing Américain 1">
+            <h2>Poing Américain Rouge</h2>
+            <p>Prix : 25€</p>
+        </div>
+        <div class="product">
+            <img src="poing2.jpg" alt="Poing Américain 2">
+            <h2>Poing Américain Bleu</h2>
+            <p>Prix : 30€</p>
+        </div>
+        <div class="product">
+            <img src="poing3.jpg" alt="Poing Américain 3">
+            <h2>Poing Américain Vert</h2>
+            <p>Prix : 28€</p>
+        </div>
+    </div>
+    <footer>
+        <p>Contactez-nous à : info@poingsamericains.com</p>
+    </footer>
+</body>
+</html>
